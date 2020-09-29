@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/listviewFavPic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listviewFavPic"
+        android:orientation="vertical"
+        android:background="#0D195A"
+        >
+
+        <TextView
+            android:id="@+id/title_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_margin="@dimen/_8sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:fontFamily="@font/amiri_regular"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/dis_viewpager"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:fontFamily="@font/amiri_regular"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

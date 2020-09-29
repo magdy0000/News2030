@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- <group android:checkableBehavior="single">
+         <item
+             android:id="@+id/home"
+             android:title="@string/mainHome" />
+         <item
+             android:id="@+id/urgent"
+             android:title="@string/Urgent" />
+         <item
+             android:id="@+id/detection"
+             android:title="@string/Detection" />
+         <item
+             android:id="@+id/politics"
+             android:title="@string/Politics" />
+
+         <item
+             android:id="@+id/events"
+             android:title="@string/Events" />
+         <item
+             android:id="@+id/reports"
+             android:title="@string/Reports" />
+
+         <item
+             android:id="@+id/governorates"
+
+             android:title="@string/Governorates" />
+
+         <item
+             android:id="@+id/settings"
+             android:title="@string/Settings" />
+
+         <item
+             android:id="@+id/logout"
+             android:title="@string/logOut" />
+     </group>
+
+
+-->
+
+ </menu>

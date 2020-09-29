@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activitys.MediaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/Videos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="الفيديوهات"
+        android:textColor="@color/white"
+        android:background="@color/Blue"
+        android:fontFamily="@font/amiri_regular"
+        android:textSize="@dimen/_9sdp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/Photos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="المعرض"
+        android:background="@color/white"
+        android:fontFamily="@font/amiri_regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_9sdp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/MediaFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</LinearLayout>

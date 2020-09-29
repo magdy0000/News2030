@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:background="#fff"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="right">
+
+    <include
+        layout="@layout/app_bar_navigation_in_our_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/login_background"
+        app:itemTextColor="#000"
+        app:elevation="@dimen/_15sdp"
+        android:gravity="right"
+        android:layout_gravity = "right"
+        android:fitsSystemWindows="true"
+
+        >
+        <ScrollView
+            android:background="#C6FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <include
+                android:id="@+id/in"
+                layout="@layout/nav_header_navigation_in_our_app"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp" />
+
+            <ListView
+                android:layout_marginTop="-40dp"
+                android:id="@+id/items_listView_for_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri"
+                />
+
+
+            <TextView
+               android:id="@+id/goAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amiri_regular"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/arrow"
+                android:text="عن المنصة"
+                />
+
+        </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

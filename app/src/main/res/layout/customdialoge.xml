@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    >
+
+
+
+
+
+
+<LinearLayout
+
+
+     android:id="@+id/parentOfDialog"
+     android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:text="رأيك يهمنا"
+        android:fontFamily="@font/amiri_regular"
+
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/amiri_regular"
+        android:paddingLeft="@dimen/_5sdp"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:paddingRight="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:text="ماذا تريد أن تقرأ في منصة توعوية؟"
+
+        />
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/editTextOfAnswer"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:backgroundTint="@color/Blue"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:hint=""
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_5sdp"
+
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:text="submit"
+            android:textColor="@color/white"
+            android:background="@drawable/back_ground_of_login_btn"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_30sdp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress_bar_dialog"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

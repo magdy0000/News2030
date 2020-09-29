@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Details"
+    >
+
+
+
+
+<ScrollView
+    android:id="@+id/parent"
+    android:visibility="gone"
+    android:background="@color/white"
+    android:padding="@dimen/_2sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <ImageView
+        android:id="@+id/image_details"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_170sdp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#FF5722"
+            android:layout_below="@id/image_details"
+            android:layout_height="2dp" />
+
+        <LinearLayout
+            android:id="@+id/save_Btn"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="#66161515"
+            android:orientation="vertical"
+            android:padding="@dimen/_4sdp">
+            <ImageView
+                android:id="@+id/save_in_details"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:src="@drawable/save" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_below="@id/image_details"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            >
+
+            <TextView
+                android:id="@+id/tittle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@color/Blue"
+                android:gravity="center_vertical"
+                android:paddingRight="@dimen/_5sdp"
+                android:fontFamily="@font/amiri_bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+
+                android:id="@+id/title_details"
+                android:paddingTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:fontFamily="@font/amiri_regular"
+                android:gravity="right"
+                android:textColor="#012F53"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:lineSpacingExtra="@dimen/_3sdp"
+                android:id="@+id/dis_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amiri_regular"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="right"
+                android:textColor="@color/Blue"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:lineSpacingExtra="@dimen/_3sdp"
+                android:id="@+id/more_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:fontFamily="@font/amiri_regular"
+                android:layout_margin="@dimen/_5sdp"
+                android:textColor="@color/Blue"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ShareButton"
+        android:layout_width="50dp"
+        android:visibility="gone"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/_20sdp"
+        android:src="@drawable/share_button"
+        />
+
+    <ProgressBar
+         android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

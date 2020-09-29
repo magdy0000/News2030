@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="horizontal"
+          android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/amiri_regular"
+            android:textSize="@dimen/_13sdp"
+            android:text="Name :"
+
+
+            />
+        <TextView
+            android:layout_toRightOf="@+id/names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="@dimen/_5sdp"
+            android:fontFamily="@font/amiri_regular"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/userName1"
+
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/emails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/amiri_regular"
+            android:text="e-mail :"
+
+
+            />
+        <TextView
+            android:layout_toRightOf="@+id/emails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiri_regular"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/mail1"
+
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/an"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/amiri_regular"
+            android:text="Answer :"
+
+
+            />
+        <TextView
+            android:layout_toRightOf="@id/an"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiri_regular"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/answer"
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

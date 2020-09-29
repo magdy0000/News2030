@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="discrbtian">hellohellohelhellohellohellohlohellohlohellohlohellohlohellohello</string>
+    <string name="Title">hellohellohellohellohellohellohelloh</string>
+
+    <string name="facebookID">555984658142361</string>
+    <string name="fb_login_protocol_scheme">fb555984658142361</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_in_our_app">navigationInOurApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mainHome">الرئسية</string>
+    <string name="Urgent">عاجل</string>
+    <string name="Detection">تحقيقات</string>
+    <string name="Politics">سياسة</string>
+    <string name="Events">حوادث</string>
+    <string name="Reports">تقارير</string>
+    <string name="Governorates">محافظات</string>
+    <string name="Settings">إعدادات</string>
+    <string name="logOut">تسجيل الخروج</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.AboutUs">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+       android:src="@drawable/loogo"
+
+        android:textColor="#C51C1C"
+        android:id="@+id/header11"
+
+        />
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiri_regular"
+        android:text="2030، منصة توعوية، تقدم نماذج جديدة من العمل الصحفي الجاد والخفيف، من أجل مساهمة حقيقية في بناء الإنسان الحديث، بسلوكيات سليمة، وأفكار عصرية."
+        android:layout_below="@+id/header11"
+        android:textColor="@color/black"
+        android:id="@+id/des"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+
+    <LinearLayout
+      android:layout_marginTop="@dimen/_20sdp"
+       android:layout_below="@+id/des"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:layout_margin="@dimen/_5sdp"
+            android:onClick="openTwitter"
+                 android:background="@drawable/twitter"   />
+        <ImageView
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:onClick="openyoutube"
+
+            android:src="@drawable/youtube" />
+
+        <ImageView
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="openfacebook"
+            android:src="@drawable/face" />
+
+
+        <ImageView
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:onClick="openinsta"
+            android:src="@drawable/instagram" />
+
+
+
+
+        <ImageView
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+
+            android:layout_marginLeft="10dp"
+
+            android:onClick="opengoogle"
+            android:src="@drawable/gmail" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

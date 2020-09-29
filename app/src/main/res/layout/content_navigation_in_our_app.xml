@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fafafa"
+    android:id="@+id/content_main"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activitys.Home"
+    tools:showIn="@layout/app_bar_navigation_in_our_app">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<FrameLayout
+    android:id="@+id/FragmentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+
+    >
+
+</FrameLayout>
+
+    <LinearLayout
+
+        android:id="@+id/Home_BottomNavi"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/account_icon_id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/logout_icon"
+            android:onClick="logout"
+
+            />
+
+
+            <ImageView
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/favert_icon_id"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/love_black"
+                android:onClick="favourite"
+
+                />
+
+        <ImageView
+            android:id="@+id/Media_icon_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Gallary"
+            android:src="@drawable/gallary_black" />
+
+
+
+        <ImageView
+            android:id="@+id/home_icon_id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_20sdp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/home_blue"
+            android:onClick="home"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
